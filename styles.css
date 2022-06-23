@@ -4,8 +4,8 @@ body{
   background-color: #233343;
 }
 
-.game{
+.game-site {
   position: relative;
-  padding-top: 30%;
-
+  padding-top: 20%;
+  padding-left: 23%;
 }
