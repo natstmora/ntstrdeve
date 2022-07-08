@@ -1,11 +1,25 @@
-body{
-  padding: 0;
-  margin: 0;
+body {
   background-color: #233343;
 }
+.content{
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #233343;
+  padding: 5px;
+}
 
-.game-site {
-  position: relative;
-  padding-top: 20%;
-  padding-left: 23%;
+.ship {
+  height: 300px;
+  width: 100%;
+  background-image: 
+   url('images/ship_image_.png'),
+   url('images/Planet.png') ;
+   background-repeat: no-repeat, no-repeat;
+   background-position: center, center;
+  height: 900px;
+}
+
+.game-site{
+  position: absolute;
+  padding-left: 35%;
 }
